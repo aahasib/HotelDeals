@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">HotelDeals</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="welcomeMssg"><b> Make Your Travel Fast and Secure \nSave money Save time </b></string>
+    <string name="aboutText"> <b> You can see various types of hotel with their detailed information like type of room,
+    pictures of every room, cost per room per day etc. There is also a checkin checkout option that gives the extra facility. You can use the map in this app
+    to get the location and direction of the hotels and also contact with hotel managers.
+    Finally there will be found a booking option to book the desired hotel and you
+    user will get the confirmation message.</b></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="help">
+        <b> Any inquiry?
+    contact with us using this mail:
+            ashiq4998@gmail.com
+            aahasib.aust@gmail.com
+            Rocks.sourov015t@gmail.com
+    </b>
+    </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Holiday_General">Room Services,Restaurent,Air Conditioned,Non smoking rooms,Mini bar,Hair Dryer,Tv,Bathrobes,Coffee shop/Cafeteria,Picnic Area/Tables,Vending Machines</string>
+    <string name="Holiday_Activities">Fitness gym,Swimming pool,Massage/Beauty Centre,Garden,Playground,Spa, Wellness Centre</string>
+    <string name="room_prices1">Delux Twin            2000 BDT</string>
+    <string name="room_prices2">Delux Twin(Air Conditioned)            2500 BDT</string>
+    <string name="room_prices3">Delux Double                     3500 BDT</string>
+
+</resources>

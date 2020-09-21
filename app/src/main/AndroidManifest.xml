@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.completeproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Dhaka_5th_hotelActivity"></activity>
+        <activity android:name=".Dhaka_4th_hotelActivity" />
+        <activity android:name=".Dhaka_3rd_hotelActivity" />
+        <activity android:name=".Dhaka_2nd_hotelActivity" />
+        <activity android:name=".Dhaka_1st_hotelActivity" />
+        <activity android:name=".LastActivity" />
+        <activity android:name=".DhakaActivity" />
+        <activity android:name=".HolidayInnActivity" />
+        <activity android:name=".CoxFourthHotel" />
+        <activity android:name=".CoxThirdHotel" />
+        <activity android:name=".CoxSecondHotel" />
+        <activity android:name=".CoxFirstHotel" />
+        <activity android:name=".Cox1Activity" />
+        <activity android:name=".BandarbanActivity" />
+        <activity android:name=".HelpActivity" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

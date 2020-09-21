@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:background="@drawable/wall"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:paddingTop="10dp"
+        android:text="Welcome!"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textAllCaps="true"
+        android:textSize="35dp"
+        android:textStyle="italic|bold"
+
+        android:layout_marginHorizontal="20dp"
+        android:gravity="center_horizontal">
+    </TextView>
+
+    <TextView
+        android:id="@+id/hotel_bt"
+        android:layout_width="180sp"
+        android:layout_height="40sp"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginTop="60dp"
+        android:paddingHorizontal="0dp"
+        android:text="Hotels"
+        android:textStyle="bold|italic"
+        android:textSize="17dp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:background="@drawable/custom_buttons"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center_horizontal">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/about_bt"
+        android:layout_width="180sp"
+        android:layout_height="40sp"
+        android:hint="Email : "
+        android:textColorHint="@color/colorPrimary"
+        android:textColor="@color/colorPrimary"
+        android:text="About"
+        android:textSize="17dp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textStyle="bold|italic"
+        android:padding="10dp"
+        android:background="@drawable/custom_buttons"
+        android:layout_marginTop="35dp"
+        android:layout_marginHorizontal="100dp"
+        >
+
+    </TextView>
+    <TextView
+        android:id="@+id/help_bt"
+        android:layout_width="180sp"
+        android:layout_height="40sp"
+        android:textColorHint="@color/colorPrimary"
+        android:textColor="@color/colorPrimary"
+        android:text="Help"
+        android:textAlignment="center"
+        android:textSize="17dp"
+        android:padding="10dp"
+        android:background="@drawable/custom_buttons"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="35dp"
+        android:layout_marginHorizontal="100dp"
+
+        android:gravity="center_horizontal">
+
+    </TextView>
+
+
+</LinearLayout>

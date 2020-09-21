@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BandarbanActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/hotelImage"
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:layout_height="130dp"
+                android:background="@drawable/holiday"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_below="@id/hotelImage"
+                android:background="@drawable/horizontal_line" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+
+                android:background="@drawable/rounded_linear_layout"
+
+                android:drawableRight="@drawable/ic_24px_star"
+                android:drawableTint="@android:color/white"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="4.5"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="39dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/hotelCardViews"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="240dp"
+                android:gravity="center"
+                android:text="Hill View"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:id="@+id/hotelName"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal"
+                android:text="Holiday Inn Resort "
+                android:textStyle="bold|italic"
+                />
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:id="@+id/tagsList"
+                android:text="Swimming pool "
+                android:textStyle="bold|italic"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/hotelName"/>
+
+
+            <Button
+                android:id="@+id/holiday_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Book"
+                android:textStyle="bold|italic">
+            </Button>
+
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_below="@id/hotelImage"
+            android:background="@drawable/horizontal_line" />
+
+        <RelativeLayout
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:layout_height="130dp"
+                android:background="@drawable/hill"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+
+                android:background="@drawable/horizontal_line" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+
+                android:background="@drawable/rounded_linear_layout"
+
+                android:drawableRight="@drawable/ic_24px_star"
+                android:drawableTint="@android:color/white"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="4.2"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="39dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="240dp"
+
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+
+                android:gravity="center"
+                android:text="Hill View"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal"
+                android:text="Hill Crown "
+                android:textStyle="bold|italic"
+                />
+
+
+            <TextView
+
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+
+                android:text="Free Wifi "
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/hillcrown_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Book"
+                android:textStyle="bold|italic">
+            </Button>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_below="@id/hotelImage"
+            android:background="@drawable/horizontal_line" />
+
+        <RelativeLayout
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:layout_height="130dp"
+                android:background="@drawable/megh"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+
+                android:background="@drawable/horizontal_line" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+
+                android:background="@drawable/rounded_linear_layout"
+
+                android:drawableRight="@drawable/ic_24px_star"
+                android:drawableTint="@android:color/white"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="4.2"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="39dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="240dp"
+
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+
+                android:gravity="center"
+                android:text="Cafeteria"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal"
+                android:text="Hill View Resort"
+                android:textStyle="bold|italic"
+                />
+
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+
+                android:text="Free Wifi "
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/hillview_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Book"
+                android:textStyle="bold|italic">
+            </Button>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+
+            android:background="@drawable/horizontal_line" />
+
+        <RelativeLayout
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:layout_height="130dp"
+                android:background="@drawable/hotelprime"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+
+                android:background="@drawable/horizontal_line" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+
+                android:background="@drawable/rounded_linear_layout"
+
+                android:drawableRight="@drawable/ic_24px_star"
+                android:drawableTint="@android:color/white"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="4.6"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="39dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="240dp"
+
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+
+                android:gravity="center"
+                android:text="Playground"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal"
+                android:text="Hotel Hilton"
+                android:textStyle="bold|italic"
+                />
+
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+
+                android:text="Free Gym "
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/hillton_bt"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Book"
+                android:textStyle="bold|italic">
+            </Button>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_below="@id/hotelImage"
+            android:background="@drawable/horizontal_line" />
+
+        <RelativeLayout
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:layout_height="130dp"
+                android:background="@drawable/labella"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+
+                android:background="@drawable/horizontal_line" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+
+                android:background="@drawable/rounded_linear_layout"
+
+                android:drawableRight="@drawable/ic_24px_star"
+                android:drawableTint="@android:color/white"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="4.7"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="39dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="240dp"
+
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+
+                android:gravity="center"
+                android:text="Cfeteria"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal"
+                android:text="Cloud Heaven"
+                android:textStyle="bold|italic"
+                />
+
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+
+                android:text="Free Gym "
+                android:textStyle="bold|italic" />
+
+            <Button
+
+                android:id="@+id/cloudheaven_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Book"
+                android:textStyle="bold|italic">
+            </Button>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

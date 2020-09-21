@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+
+    tools:context=".LastActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Booking "
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_marginHorizontal="31dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textColorHint="@color/colorWhite"
+        android:paddingHorizontal="20dp"
+        android:text="Please Select"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Deluxe Twin"
+        android:textColorHint="@color/colorWhite"
+        android:id="@+id/delux_Twin_id"
+        android:paddingHorizontal="50dp"
+        android:layout_marginHorizontal="40dp"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Deluxe Double Room"
+        android:textColorHint="@color/colorWhite"
+        android:id="@+id/delux_double_id"
+        android:paddingHorizontal="50dp"
+        android:layout_marginHorizontal="40dp"/>
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:textSize="20sp"
+    android:gravity="center"
+    android:text="Select Date"
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:paddingTop="10dp"
+        android:orientation="horizontal">
+
+
+        <Spinner
+
+            android:id="@+id/day_id"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:paddingHorizontal="20dp" />
+
+        <Spinner
+
+            android:id="@+id/month_id"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:paddingHorizontal="20dp" />
+
+        <Spinner
+
+            android:id="@+id/year_id"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:paddingHorizontal="20dp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:paddingHorizontal="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="31dp"
+        ></TextView>
+    <EditText
+        android:id="@+id/address_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Address"
+        android:textColorHint="@color/colorWhite"
+        android:paddingHorizontal="50dp"
+        android:layout_marginHorizontal="31dp"
+        ></EditText>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Number"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:paddingHorizontal="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="31dp"
+        ></TextView>
+    <EditText
+        android:id="@+id/contract_number_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contract Number"
+        android:textColorHint="@color/colorWhite"
+        android:paddingHorizontal="50dp"
+        android:layout_marginHorizontal="31dp"
+        ></EditText>
+
+    <Button
+        android:id="@+id/confirm_btn_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:textColor="@color/colorWhite"
+        android:background="@color/green"
+        android:alpha="0.5"
+        android:layout_marginHorizontal="35dp"
+        android:layout_marginTop="15dp"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/logout_btn_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LogOut"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorRed"
+        android:alpha="0.7"
+        android:layout_marginHorizontal="35dp"
+        android:layout_marginTop="15dp"
+        >
+    </Button>
+
+</LinearLayout>
